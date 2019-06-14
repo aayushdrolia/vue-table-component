@@ -1,5 +1,7 @@
 <template>
     <div class="table-component">
+        <pagination v-if="pagination" :pagination="pagination" @pageChange="pageChange"></pagination>
+
         <div v-if="showFilter && filterableColumnExists" class="table-component__filter">
             <input
                     :class="fullFilterInputClass"

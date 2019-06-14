@@ -4,6 +4,7 @@ exports[`Filtering can add a custom html class on the filter input 1`] = `
 
 <div id="app">
   <div class="table-component">
+    <!---->
     <div class="table-component__filter">
       <input type="text"
              placeholder="Filter table…"
@@ -69,6 +70,7 @@ exports[`Filtering hides the filter when no columns are filterable 1`] = `
 
 <div id="app">
   <div class="table-component">
+    <!---->
     <!---->
     <div class="table-component__table-wrapper">
       <table class="table-component__table">
